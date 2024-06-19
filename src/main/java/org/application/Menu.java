@@ -84,6 +84,6 @@ public class Menu {
         String json = consumoApi.obterDados(endereco);
         Moedas converteJson = converteDados.obterDados(json, Moedas.class);
         double taxaConversao = converteJson.conversao();
-        System.out.println("A cotação atual é de: " + converteJson.moeda() + ": " + taxaConversao); 
+        System.out.println("A cotação atual do " + converteJson.moeda() + " é de: " + taxaConversao); 
     }
 }
