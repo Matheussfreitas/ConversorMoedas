@@ -71,7 +71,7 @@ public class Menu {
         Moedas converteJson = converteDados.obterDados(json, Moedas.class);
         double taxaConversao = converteJson.conversao();
         double resultado = valor * taxaConversao;
-        System.out.println("O resultado da conversão de " + converteJson.moeda() + " para " + converteJson.moedaConvertida() + " é de: " + resultado);
+        System.out.println("Atualmente, " + valor + " " + converteJson.moeda() + " equivalem a " + resultado + " " + converteJson.moedaConvertida());
     }
 
     public void verificarCotacao (int operacaoCotacao) {
