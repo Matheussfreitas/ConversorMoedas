@@ -18,7 +18,6 @@ Este é um projeto pessoal de um conversor de moedas desenvolvido em Java.
 - Gerenciador de dependências e construção Maven
 - Biblioteca Jackson para realizar requisições com API
 - API Exchange Rate
-- Construção com Spring Boot
 
 ## Contribuições
 
